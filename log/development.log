@@ -25843,3 +25843,799 @@ Started GET "/users/style.css" for ::1 at 2022-07-06 10:47:51 +0545
   
 ActionController::RoutingError (No route matches [GET] "/users/style.css"):
   
+Started GET "/users/edit" for ::1 at 2022-07-06 11:41:02 +0545
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Users::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.2ms | Allocations: 274)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 5.5ms | Allocations: 6724)
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 1340)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 232)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 752)
+  Rendered layout layouts/application.html.erb (Duration: 48.5ms | Allocations: 82639)
+Completed 200 OK in 66ms (Views: 51.3ms | ActiveRecord: 0.4ms | Allocations: 95512)
+
+
+Started GET "/users/style.css" for ::1 at 2022-07-06 11:41:02 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started GET "/" for ::1 at 2022-07-06 13:01:18 +0545
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 60.7ms | Allocations: 53648)
+  Rendered layouts/_navbar.html.erb (Duration: 1.6ms | Allocations: 1289)
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 232)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 752)
+  Rendered layout layouts/application.html.erb (Duration: 76.1ms | Allocations: 78230)
+Completed 200 OK in 81ms (Views: 77.7ms | ActiveRecord: 0.0ms | Allocations: 81663)
+
+
+Started GET "/style.css" for ::1 at 2022-07-06 13:01:27 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/users/sign_up" for ::1 at 2022-07-06 13:01:35 +0545
+Processing by Users::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 266)
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 648)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 8.8ms | Allocations: 5458)
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 815)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 42)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 602)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 10743)
+Completed 200 OK in 21ms (Views: 13.6ms | ActiveRecord: 0.5ms | Allocations: 18129)
+
+
+Started GET "/users/style.css" for ::1 at 2022-07-06 13:01:35 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started GET "/style.css" for ::1 at 2022-07-06 13:01:38 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/" for ::1 at 2022-07-06 13:01:38 +0545
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1872)
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 807)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 31)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 601)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 7127)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 8511)
+
+
+Started GET "/style.css" for ::1 at 2022-07-06 13:01:38 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/users/style.css" for ::1 at 2022-07-06 13:01:40 +0545
+Started GET "/users/sign_up" for ::1 at 2022-07-06 13:01:40 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Processing by Users::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 32)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 106)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1438)
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 779)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 31)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 601)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 11818)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 13134)
+
+
+Started GET "/users/style.css" for ::1 at 2022-07-06 13:01:40 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started GET "/users/sign_in" for ::1 at 2022-07-06 13:01:41 +0545
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 312)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 2437)
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 812)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 42)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 599)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 7700)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 9531)
+
+
+Started GET "/users/style.css" for ::1 at 2022-07-06 13:01:41 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started GET "/users/sign_up" for ::1 at 2022-07-06 13:01:41 +0545
+Processing by Users::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 22)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 96)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1289)
+Started GET "/users/style.css" for ::1 at 2022-07-06 13:01:41 +0545
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 802)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 41)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 624)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 7055)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 7764)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started GET "/users/sign_up" for ::1 at 2022-07-06 13:01:46 +0545
+Processing by Users::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 96)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1268)
+  Rendered layouts/_navbar.html.erb (Duration: 1.3ms | Allocations: 775)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 31)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 601)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 6364)
+Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 6987)
+
+
+Started GET "/users/style.css" for ::1 at 2022-07-06 13:01:46 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started GET "/users/sign_up" for ::1 at 2022-07-06 13:01:51 +0545
+Processing by Users::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 96)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1268)
+  Rendered layouts/_navbar.html.erb (Duration: 1.2ms | Allocations: 775)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 31)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 601)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 6364)
+Completed 200 OK in 14ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 6985)
+
+
+Started GET "/users/style.css" for ::1 at 2022-07-06 13:01:51 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started GET "/users/sign_in" for ::1 at 2022-07-06 13:01:52 +0545
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 160)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1336)
+  Rendered layouts/_navbar.html.erb (Duration: 0.5ms | Allocations: 775)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 31)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 601)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 6424)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 7122)
+
+
+Started GET "/users/style.css" for ::1 at 2022-07-06 13:01:52 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started GET "/users/sign_in" for ::1 at 2022-07-06 13:02:01 +0545
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 589)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 22.2ms | Allocations: 2394)
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 1121)
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 214)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 735)
+  Rendered layout layouts/application.html.erb (Duration: 27.1ms | Allocations: 8743)
+Completed 200 OK in 42ms (Views: 37.6ms | ActiveRecord: 0.0ms | Allocations: 10345)
+
+
+Started GET "/users/style.css" for ::1 at 2022-07-06 13:02:01 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started GET "/users/sign_in" for ::1 at 2022-07-06 13:02:04 +0545
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 160)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1336)
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 775)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 31)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 601)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 6423)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 7150)
+
+
+Started GET "/users/style.css" for ::1 at 2022-07-06 13:02:04 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started GET "/users/sign_in" for ::1 at 2022-07-06 13:02:10 +0545
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 160)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1336)
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 775)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 31)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 601)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 6424)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 7102)
+
+
+Started GET "/users/style.css" for ::1 at 2022-07-06 13:02:10 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started GET "/users/sign_in" for ::1 at 2022-07-06 13:02:12 +0545
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 160)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1336)
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 775)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 31)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 601)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 6423)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 7107)
+
+
+Started GET "/users/style.css" for ::1 at 2022-07-06 13:02:12 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started GET "/users/sign_up" for ::1 at 2022-07-06 13:02:14 +0545
+Processing by Users::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 222)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 107)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2116)
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 809)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 42)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 599)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 7384)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 8643)
+
+
+Started GET "/users/style.css" for ::1 at 2022-07-06 13:02:14 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started GET "/users/style.css" for ::1 at 2022-07-06 13:02:15 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started GET "/users/sign_in" for ::1 at 2022-07-06 13:02:15 +0545
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 170)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1745)
+  Rendered layouts/_navbar.html.erb (Duration: 1.2ms | Allocations: 1314)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 35)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 631)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 12921)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 14324)
+
+
+Started GET "/users/style.css" for ::1 at 2022-07-06 13:02:15 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started POST "/users/sign_in" for ::1 at 2022-07-06 13:02:38 +0545
+Processing by Users::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"numb1prabesht7@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "numb1prabesht7@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 281ms (ActiveRecord: 0.9ms | Allocations: 5613)
+
+
+Started GET "/" for ::1 at 2022-07-06 13:02:39 +0545
+Processing by PagesController#home as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1411)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navbar.html.erb:21
+  Rendered layouts/_navbar.html.erb (Duration: 1.4ms | Allocations: 2009)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 42)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 602)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 7852)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.1ms | Allocations: 8602)
+
+
+Started GET "/style.css" for ::1 at 2022-07-06 13:02:39 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/" for ::1 at 2022-07-06 13:03:07 +0545
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1413)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navbar.html.erb:21
+  Rendered layouts/_navbar.html.erb (Duration: 3.8ms | Allocations: 2051)
+  Rendered layouts/_alerts.html.erb (Duration: 0.6ms | Allocations: 214)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 735)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 8592)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.2ms | Allocations: 9483)
+
+
+Started GET "/style.css" for ::1 at 2022-07-06 13:03:07 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/" for ::1 at 2022-07-06 13:03:15 +0545
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1410)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navbar.html.erb:21
+  Rendered layouts/_navbar.html.erb (Duration: 3.4ms | Allocations: 2031)
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 214)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 735)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 8551)
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 0.2ms | Allocations: 9442)
+
+
+Started GET "/style.css" for ::1 at 2022-07-06 13:03:15 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started DELETE "/users/sign_out" for ::1 at 2022-07-06 13:03:21 +0545
+Processing by Users::SessionsController#destroy as TURBO_STREAM
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 24ms (ActiveRecord: 0.5ms | Allocations: 9001)
+
+
+Started DELETE "/" for ::1 at 2022-07-06 13:03:21 +0545
+  
+ActionController::RoutingError (No route matches [DELETE] "/"):
+  
+Started GET "/" for ::1 at 2022-07-06 13:03:21 +0545
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1052)
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 818)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 35)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 601)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 6139)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 6442)
+
+
+Started GET "/style.css" for ::1 at 2022-07-06 13:03:21 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/users/sign_in" for ::1 at 2022-07-06 13:03:24 +0545
+Processing by Users::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 586)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2390)
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 812)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 42)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 602)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 7709)
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 9127)
+
+
+Started GET "/users/style.css" for ::1 at 2022-07-06 13:03:24 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started POST "/users/sign_in" for ::1 at 2022-07-06 13:03:29 +0545
+Processing by Users::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"numb1prabesht7@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "numb1prabesht7@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 274ms (ActiveRecord: 0.4ms | Allocations: 2863)
+
+
+Started GET "/" for ::1 at 2022-07-06 13:03:29 +0545
+Processing by PagesController#home as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 958)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navbar.html.erb:21
+  Rendered layouts/_navbar.html.erb (Duration: 1.2ms | Allocations: 1556)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 31)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 601)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 6815)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.1ms | Allocations: 7141)
+
+
+Started GET "/style.css" for ::1 at 2022-07-06 13:03:29 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/posts/new" for ::1 at 2022-07-06 13:03:47 +0545
+Processing by PostsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 2.1ms | Allocations: 1301)
+  Rendered posts/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1696)
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 1304)
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 214)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 735)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 8308)
+Completed 200 OK in 19ms (Views: 9.0ms | ActiveRecord: 0.5ms | Allocations: 15205)
+
+
+Started GET "/posts/style.css" for ::1 at 2022-07-06 13:03:47 +0545
+Processing by PostsController#show as CSS
+  Parameters: {"id"=>"style"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:66:in `set_post'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms | Allocations: 1756)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Post with 'id'=style):
+  
+app/controllers/posts_controller.rb:66:in `set_post'
+Started GET "/posts" for ::1 at 2022-07-06 13:03:50 +0545
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:6
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/posts/_post.html.erb:32
+  Rendered posts/_post.html.erb (Duration: 6.9ms | Allocations: 3942)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/posts/_post.html.erb:32
+  Rendered posts/_post.html.erb (Duration: 0.8ms | Allocations: 763)
+  Rendered posts/index.html.erb within layouts/application (Duration: 12.4ms | Allocations: 6069)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navbar.html.erb:21
+  Rendered layouts/_navbar.html.erb (Duration: 2.1ms | Allocations: 1761)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 601)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 12512)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.9ms | Allocations: 12978)
+
+
+Started GET "/style.css" for ::1 at 2022-07-06 13:03:50 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/posts/2" for ::1 at 2022-07-06 13:03:53 +0545
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:66:in `set_post'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:11:in `show'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:11:in `show'
+  [1m[36mPost Update (0.3ms)[0m  [1m[33mUPDATE "posts" SET "updated_at" = ?, "views" = ? WHERE "posts"."id" = ?[0m  [["updated_at", "2022-07-06 07:18:53.949826"], ["views", 3], ["id", 2]]
+  ↳ app/controllers/posts_controller.rb:11:in `show'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:11:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/_post.html.erb (Duration: 0.3ms | Allocations: 165)
+  Rendered comments/_form.html.erb (Duration: 11.1ms | Allocations: 9496)
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ? ORDER BY "comments"."created_at" DESC[0m  [["post_id", 2]]
+  ↳ app/views/posts/show.html.erb:12
+  Rendered posts/show.html.erb within layouts/application (Duration: 13.6ms | Allocations: 11498)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navbar.html.erb:21
+  Rendered layouts/_navbar.html.erb (Duration: 1.3ms | Allocations: 1787)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 37)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 601)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 17722)
+Completed 200 OK in 37ms (Views: 17.7ms | ActiveRecord: 2.8ms | Allocations: 31743)
+
+
+Started GET "/posts/style.css" for ::1 at 2022-07-06 13:03:53 +0545
+Processing by PostsController#show as CSS
+  Parameters: {"id"=>"style"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:66:in `set_post'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms | Allocations: 962)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Post with 'id'=style):
+  
+app/controllers/posts_controller.rb:66:in `set_post'
+Started GET "/posts/style.css" for ::1 at 2022-07-06 13:05:08 +0545
+Processing by PostsController#show as CSS
+  Parameters: {"id"=>"style"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:66:in `set_post'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms | Allocations: 934)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Post with 'id'=style):
+  
+app/controllers/posts_controller.rb:66:in `set_post'
+Started GET "/posts/new" for ::1 at 2022-07-06 13:05:08 +0545
+Processing by PostsController#new as HTML
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 0.5ms | Allocations: 579)
+  Rendered posts/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 808)
+  Rendered layouts/_navbar.html.erb (Duration: 0.6ms | Allocations: 1469)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 41)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 615)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 9419)
+Completed 200 OK in 8ms (Views: 4.9ms | ActiveRecord: 0.7ms | Allocations: 13796)
+
+
+Started GET "/users/edit" for ::1 at 2022-07-06 13:05:09 +0545
+Processing by Users::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 222)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 4.7ms | Allocations: 3098)
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 981)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 42)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 599)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 8538)
+Completed 200 OK in 15ms (Views: 11.0ms | ActiveRecord: 0.2ms | Allocations: 10922)
+
+
+Started GET "/users/style.css" for ::1 at 2022-07-06 13:05:09 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started GET "/style.css" for ::1 at 2022-07-06 13:05:23 +0545
+Started GET "/" for ::1 at 2022-07-06 13:05:23 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 4445)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navbar.html.erb:21
+  Rendered layouts/_navbar.html.erb (Duration: 1.5ms | Allocations: 1919)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 42)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 602)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 12854)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.1ms | Allocations: 15313)
+
+
+Started GET "/style.css" for ::1 at 2022-07-06 13:05:23 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/posts/new" for ::1 at 2022-07-06 13:05:28 +0545
+Started GET "/posts/style.css" for ::1 at 2022-07-06 13:05:28 +0545
+Processing by PostsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 0.6ms | Allocations: 586)
+  Rendered posts/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 728)
+  Rendered layouts/_navbar.html.erb (Duration: 0.9ms | Allocations: 1070)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 41)
+Processing by PostsController#show as CSS
+  Parameters: {"id"=>"style"}
+  Rendered layouts/_footer.html.erb (Duration: 1.2ms | Allocations: 941)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 6691)
+Completed 200 OK in 13ms (Views: 8.9ms | ActiveRecord: 0.3ms | Allocations: 8343)
+
+
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:66:in `set_post'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.1ms | Allocations: 1788)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Post with 'id'=style):
+  
+app/controllers/posts_controller.rb:66:in `set_post'
+Started GET "/style.css" for ::1 at 2022-07-06 13:05:30 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/about" for ::1 at 2022-07-06 13:05:32 +0545
+Processing by PagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1014)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navbar.html.erb:21
+  Rendered layouts/_navbar.html.erb (Duration: 1.6ms | Allocations: 1746)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 31)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 601)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 7019)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.1ms | Allocations: 7353)
+
+
+Started GET "/style.css" for ::1 at 2022-07-06 13:05:32 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/style.css" for ::1 at 2022-07-06 13:05:34 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/users/style.css" for ::1 at 2022-07-08 19:40:15 +0545
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+Started GET "/" for ::1 at 2022-07-08 19:40:18 +0545
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 38.7ms | Allocations: 53304)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navbar.html.erb:21
+  Rendered layouts/_navbar.html.erb (Duration: 5.8ms | Allocations: 10031)
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 261)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 833)
+  Rendered layout layouts/application.html.erb (Duration: 82.5ms | Allocations: 86784)
+Completed 200 OK in 86ms (Views: 83.1ms | ActiveRecord: 0.3ms | Allocations: 89151)
+
+
+Started GET "/style.css" for ::1 at 2022-07-08 19:40:19 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/about" for ::1 at 2022-07-08 19:40:19 +0545
+Processing by PagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1029)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navbar.html.erb:21
+  Rendered layouts/_navbar.html.erb (Duration: 3.1ms | Allocations: 1872)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 31)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 598)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 7156)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.2ms | Allocations: 7517)
+
+
+Started GET "/style.css" for ::1 at 2022-07-08 19:40:19 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/posts" for ::1 at 2022-07-08 19:40:20 +0545
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:6
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/posts/_post.html.erb:32
+  Rendered posts/_post.html.erb (Duration: 5.4ms | Allocations: 4046)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/posts/_post.html.erb:32
+  Rendered posts/_post.html.erb (Duration: 0.8ms | Allocations: 763)
+  Rendered posts/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 8608)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navbar.html.erb:21
+  Rendered layouts/_navbar.html.erb (Duration: 2.1ms | Allocations: 1787)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 42)
+  Rendered layouts/_footer.html.erb (Duration: 0.5ms | Allocations: 603)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 15231)
+Completed 200 OK in 27ms (Views: 18.9ms | ActiveRecord: 1.0ms | Allocations: 18324)
+
+
+Started GET "/style.css" for ::1 at 2022-07-08 19:40:20 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/posts/new" for ::1 at 2022-07-08 19:40:21 +0545
+Processing by PostsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 6.4ms | Allocations: 2731)
+  Rendered posts/new.html.erb within layouts/application (Duration: 7.5ms | Allocations: 3110)
+  Rendered layouts/_navbar.html.erb (Duration: 0.8ms | Allocations: 972)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 37)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 601)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 8534)
+Completed 200 OK in 19ms (Views: 12.5ms | ActiveRecord: 0.2ms | Allocations: 11401)
+
+
+Started GET "/posts/style.css" for ::1 at 2022-07-08 19:40:21 +0545
+Processing by PostsController#show as CSS
+  Parameters: {"id"=>"style"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:66:in `set_post'
+Completed 404 Not Found in 1ms (ActiveRecord: 0.1ms | Allocations: 1628)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Post with 'id'=style):
+  
+app/controllers/posts_controller.rb:66:in `set_post'
+Started GET "/users/style.css" for ::1 at 2022-07-08 19:40:22 +0545
+Started GET "/users/edit" for ::1 at 2022-07-08 19:40:22 +0545
+Processing by Users::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 291)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 7.4ms | Allocations: 4404)
+  
+ActionController::RoutingError (No route matches [GET] "/users/style.css"):
+  
+  Rendered layouts/_navbar.html.erb (Duration: 1.0ms | Allocations: 1375)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered layouts/_footer.html.erb (Duration: 0.8ms | Allocations: 946)
+  Rendered layout layouts/application.html.erb (Duration: 25.2ms | Allocations: 24459)
+Completed 200 OK in 32ms (Views: 28.3ms | ActiveRecord: 0.1ms | Allocations: 27518)
+
+
+Started GET "/posts" for ::1 at 2022-07-09 18:54:01 +0545
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:6
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/posts/_post.html.erb:32
+  Rendered posts/_post.html.erb (Duration: 12.8ms | Allocations: 9887)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/posts/_post.html.erb:32
+  Rendered posts/_post.html.erb (Duration: 0.6ms | Allocations: 765)
+  Rendered posts/index.html.erb within layouts/application (Duration: 17.0ms | Allocations: 15957)
+  Rendered layouts/_navbar.html.erb (Duration: 1.3ms | Allocations: 1274)
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 232)
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 752)
+  Rendered layout layouts/application.html.erb (Duration: 62.2ms | Allocations: 92856)
+Completed 200 OK in 69ms (Views: 63.2ms | ActiveRecord: 0.6ms | Allocations: 98610)
+
+
+Started GET "/style.css" for ::1 at 2022-07-09 18:54:01 +0545
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+Started GET "/posts" for ::1 at 2022-07-09 18:54:32 +0545
+Processing by PostsController#index as */*
+  Parameters: {"id"=>8, "title"=>"Neymar", "body"=>"Hello, My name is Neymar", "created_at"=>"2022-07-09T13:01:34.034Z", "updated_at"=>"2022-07-09T13:01:34.034Z", "post"=>{"id"=>8, "title"=>"Neymar", "body"=>"Hello, My name is Neymar", "created_at"=>"2022-07-09T13:01:34.034Z", "updated_at"=>"2022-07-09T13:01:34.034Z"}}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/posts/index.html.erb:6
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/posts/_post.html.erb:32
+  Rendered posts/_post.html.erb (Duration: 0.8ms | Allocations: 897)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/views/posts/_post.html.erb:32
+  Rendered posts/_post.html.erb (Duration: 0.6ms | Allocations: 737)
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 2515)
+  Rendered layouts/_navbar.html.erb (Duration: 0.7ms | Allocations: 817)
+  Rendered layouts/_alerts.html.erb (Duration: 0.0ms | Allocations: 37)
+  Rendered layouts/_footer.html.erb (Duration: 0.4ms | Allocations: 601)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 7875)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.1ms | Allocations: 8303)
+
+
