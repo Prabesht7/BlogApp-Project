@@ -1,0 +1,13 @@
+<div class="container">
+<br><br>
+<h1 style="font-size:50px; font-weight:bold; text-align:center;">Blog Posts</h1>
+
+<div id="posts">
+  <% @posts.each do |post| %>
+    <%= render post %>
+  <% end %>
+</div>
+<div style="margin-left:360px;">
+<%= link_to "New post", new_post_path, class:"btn btn-info" %><br><br><br><br>
+</div>
+</div>

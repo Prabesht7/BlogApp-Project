@@ -1,0 +1,12 @@
+<div class="container">
+<h1 style="text-align:center; font-size:60px; font-weight:bold;">Editing post</h1>
+
+<%= render "form", post: @post %>
+
+<br>
+
+<div style="margin-left:540px;">
+  <%= link_to "Show this post", @post, class:"btn btn-info" %> |
+  <%= link_to "Back to posts", posts_path, class:"btn btn-primary" %>
+</div>
+</div>
